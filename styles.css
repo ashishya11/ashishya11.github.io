@@ -1,0 +1,8 @@
+body {
+  background-color: aliceblue;
+}
+.box {
+  text-align: justify;
+  padding: 10px 5px;
+  width: 100%;
+}
