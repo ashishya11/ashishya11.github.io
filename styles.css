@@ -1,8 +1,60 @@
 body {
   background-color: aliceblue;
+  padding: 25px 0px 25px 0px;
 }
 .box {
-  text-align: justify;
+  min-height: calc(100vh);
+  border-radius: 4px;
+  text-align: left;
   padding: 10px 5px;
   width: 100%;
+  box-shadow: 2px 2px 8px rgba(6, 20, 38, 0.2), -2px -2px 8px rgba(6, 20, 38, 0.2), 2px -2px 8px rgba(6, 20, 38, 0.2),
+    -2px 2px 8px rgba(6, 20, 38, 0.2);
+}
+.avatarPic {
+  background-image: url(./pic.jpg);
+  /* height: calc(100vh - 85vh); */
+  height: 140px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: calc(100% - 15%); */
+  width: 135px;
+  border-radius: 50%;
+}
+.applicantContactDetails {
+  padding: 15px 0px 15px 10px;
+}
+.detailBlock{
+  padding-bottom: 7px;
+}
+.detailBlock > span {
+  padding-left: 2px;
+  font-size: 10px;
+  font-weight: 300;
+  vertical-align: text-top;
+  color: #008080;
+  word-break: break-word;
+}
+i {
+  color: #008080;
+}
+.headTitle {
+  min-height: 130px;
+  background-color: #008080;
+  color: #fff;
+  padding: 10px 40px 10px 25px;
+}
+.applicantName {
+  font-size: 24px;
+}
+.applicantDesignation {
+  font-size: 16px;
+}
+.partionLine {
+  margin: 0 !important;
+  border-top: 1px solid rgba(244, 249, 251, 0.85) !important;
+}
+.applicantSummary {
+  font-size: 12px;
 }
