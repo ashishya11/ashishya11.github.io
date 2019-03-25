@@ -21,7 +21,23 @@ body {
   /* width: calc(100% - 15%); */
   width: 135px;
   border-radius: 50%;
-  padding-bottom: 15px;
+}
+.applicantContactDetails {
+  padding: 15px 0px 15px 10px;
+}
+.detailBlock{
+  padding-bottom: 7px;
+}
+.detailBlock > span {
+  padding-left: 2px;
+  font-size: 10px;
+  font-weight: 300;
+  vertical-align: text-top;
+  color: #008080;
+  word-break: break-word;
+}
+i {
+  color: #008080;
 }
 .headTitle {
   min-height: 130px;
