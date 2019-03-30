@@ -12,15 +12,12 @@ body {
     -2px 2px 8px rgba(6, 20, 38, 0.2);
 }
 .avatarPic {
-  background-image: url(./pic.jpg);
-  /* height: calc(100vh - 85vh); */
   height: 140px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: calc(100% - 15%); */
-  width: 135px;
-  border-radius: 50%;
+  width: 145px;
+  border-radius: 40% 40% 5% 40%;
 }
 .applicantContactDetails {
   padding: 15px 0px 15px 10px;
@@ -30,7 +27,7 @@ body {
 }
 .detailBlock > span {
   padding-left: 2px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
   vertical-align: text-top;
   color: #008080;
@@ -39,8 +36,28 @@ body {
 i {
   color: #008080;
 }
+.detailSkills{
+  color: #008080;
+  padding-top: 15px;
+}
+.skillBox{
+  padding: 3px 5px;
+  background-color: #008080;
+  color: #fff;
+  border-radius: 3px; 
+  vertical-align: -webkit-baseline-middle;
+}
+.padd{
+  padding: 5px 10px 0px 10px;
+}
+.detailLanguage{
+  padding: 5px 10px;
+}
+.language{
+  font-size: 18px;
+}
 .headTitle {
-  min-height: 130px;
+  min-height: 140px;
   background-color: #008080;
   color: #fff;
   padding: 10px 40px 10px 25px;
@@ -56,5 +73,37 @@ i {
   border-top: 1px solid rgba(244, 249, 251, 0.85) !important;
 }
 .applicantSummary {
-  font-size: 12px;
+  font-size: 14px;
+}
+.detailBody{
+  color: #008080;
+  padding: 15px 0px;
+}
+.titleHead{
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.detailPartionLine {
+  margin: 0 !important;
+  border-top: 1px solid black !important;
+  width: 90%;
+}
+.detailOrganisation{
+  font-weight: 300;
+}
+.detailDuration{
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+}
+.detailDurationLocation{
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  float: right;
+  vertical-align: text-bottom;
+  padding-right: 10px;
+}
+.padBottom{
+  padding-bottom: 15px;
 }
