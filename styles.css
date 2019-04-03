@@ -1,14 +1,18 @@
 body {
   background-color: #fff;
   padding: 25px 0px 25px 0px;
+  font-weight: 200;
 }
-a{
+a {
   text-decoration: none !important;
   color: #008080 !important;
 }
-a:hover{
+a:hover {
   text-decoration: none !important;
   color: #008080 !important;
+}
+h5 {
+  font-weight: bold !important;
 }
 .box {
   min-height: calc(100vh);
@@ -31,7 +35,7 @@ a:hover{
 .applicantContactDetails {
   padding: 15px 0px 15px 10px;
 }
-.detailBlock{
+.detailBlock {
   padding-bottom: 7px;
 }
 .detailBlock > span {
@@ -45,24 +49,24 @@ a:hover{
 i {
   color: #008080;
 }
-.detailSkills{
+.detailSkills {
   color: #008080;
   padding-top: 15px;
 }
-.skillBox{
+.skillBox {
   padding: 3px 5px;
   background-color: #008080;
   color: #fff;
-  border-radius: 3px; 
+  border-radius: 3px;
   vertical-align: -webkit-baseline-middle;
 }
-.padd{
+.padd {
   padding: 5px 10px 0px 10px;
 }
-.detailLanguage{
+.detailLanguage {
   padding: 5px 10px;
 }
-.language{
+.language {
   font-size: 18px;
 }
 .headTitle {
@@ -84,11 +88,11 @@ i {
 .applicantSummary {
   font-size: 14px;
 }
-.detailBody{
+.detailBody {
   color: #008080;
   padding: 15px 0px;
 }
-.titleHead{
+.titleHead {
   font-size: 18px;
   padding-bottom: 15px;
 }
@@ -97,15 +101,15 @@ i {
   border-top: 1px solid black !important;
   width: 90%;
 }
-.detailOrganisation{
+.detailOrganisation {
   font-weight: 300;
 }
-.detailDuration{
+.detailDuration {
   font-size: 14px;
   font-weight: 300;
   font-style: italic;
 }
-.detailDurationLocation{
+.detailDurationLocation {
   font-size: 14px;
   font-weight: 300;
   font-style: italic;
@@ -113,6 +117,23 @@ i {
   vertical-align: text-bottom;
   padding-right: 10px;
 }
-.padBottom{
+.padBottom {
   padding-bottom: 15px;
+}
+
+.smallShowScreen {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .smallShowScreen {
+    margin-top: 15px;
+    display: block;
+  }
+  .smallHideScreen {
+    display: none;
+  }
+  .padBottom {
+    padding-left: 5px;
+  }
 }
