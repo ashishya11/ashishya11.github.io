@@ -132,6 +132,10 @@ i {
 .downloadBtn a{
   color: #fff !important;
 }
+dd{
+  font-size: 12px;
+  font-style: italic;
+}
 @media only screen and (max-width: 767px) {
   .smallShowScreen {
     margin-top: 15px;
