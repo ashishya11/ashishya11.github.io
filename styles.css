@@ -123,6 +123,15 @@ i {
 .smallShowScreen {
   display: none;
 }
+.downloadBtn {
+  float: right;
+  font-style: italic;
+  font-size: 10px;
+  cursor: pointer;
+}
+.downloadBtn a{
+  color: #fff !important;
+}
 @media only screen and (max-width: 767px) {
   .smallShowScreen {
     margin-top: 15px;
